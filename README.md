@@ -3,6 +3,8 @@ Delegate any property event (prop, derived, session etc) of an AmpersandJS state
 
 Ampersand state only delegates events of it's children. This mixin allows to delegate any state property.
 
+ampersand-bubble-prop takes care of unbinding properties if needed. All you need to do is call state.bubbleProp(state, stateName)
+
 ###Install using npm:
 ```
 npm i ampersand-bubble-prop --save
