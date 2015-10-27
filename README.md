@@ -3,6 +3,12 @@ Delegate any property event (prop, derived, session etc) of an AmpersandJS state
 
 Ampersand state only delegates events of it's children. This mixin allows to delegate any state property.
 
+###Install using npm:
+```
+npm i ampersand-bubble-prop --save
+```
+
+###Example:
 ```javascript
 var AmpersandBubbleProp = require('ampersand-bubble-prop');
 
