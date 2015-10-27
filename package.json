@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "description": "Delegate any property event (prop, derived, session etc) of an AmpersandJS state",
   "main": "index.js",
-  "author": "Serge Herkül",
-  "license": "MIT"
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "author": "Teamweek, Serge Herkül",
+  "license": "MIT",
+  "devDependencies": {
+    "ampersand-state": "^4.6.0",
+    "tape": "^4.2.2"
+  }
 }
