@@ -1,0 +1,8 @@
+{
+  "name": "ampersand-bubble-prop",
+  "version": "0.1.0",
+  "description": "Delegate any property event (prop, derived, session etc) of an AmpersandJS state",
+  "main": "index.js",
+  "author": "Serge Herkül",
+  "license": "MIT"
+}
