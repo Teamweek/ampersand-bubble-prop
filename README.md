@@ -4,7 +4,7 @@ Delegate any property event (prop, derived, session etc) of an AmpersandJS state
 Ampersand state only delegates events of it's children. This mixin allows to delegate any state property.
 
 ```javascript
-var AmpersandBubbleProp = require(ampersand-bubble-prop);
+var AmpersandBubbleProp = require('ampersand-bubble-prop');
 
 // Extend AmpersandBubbleProp mixin
 var ParentState = State.extend(AmpersandBubbleProp, {
