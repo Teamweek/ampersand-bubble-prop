@@ -6,6 +6,7 @@ Ampersand state only delegates events of it's children. This mixin allows to del
 ```javascript
 var AmpersandBubbleProp = require(ampersand-bubble-prop);
 
+// Extend AmpersandBubbleProp mixin
 var ParentState = State.extend(AmpersandBubbleProp, {
   props: {
     childProp: 'state',
@@ -34,7 +35,7 @@ var ParentState = State.extend(AmpersandBubbleProp, {
 
 var state = new ParentState();
 
-// You can now listen to those events:
+// You can now listen to these events:
 state.on('change:childProp.prop', function () {});
 state.on('change:sessionProp.prop', function () {});
 state.on('change:derivedProp.prop', function () {});
